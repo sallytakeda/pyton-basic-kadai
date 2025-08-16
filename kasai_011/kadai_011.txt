@@ -1,0 +1,28 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+# forループを使ってリストの各要素を出力
+print("forループを使ってリストの各要素を出力")
+for element in array:
+    print(element)
+for element in array:
+    print(element)
+
+
+# リストを定義
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+# whoileループ用のインデックスを初期化
+i = 0
+
+# whileループを使ってリストの内容を以１回目に出力
+print("\nwhileループの出力結果：")
+while i < len(array):
+    print(array[i])
+    i += 1
+# インデックスを再度０にリセット
+i = 0
+
+# whileループを使ってリストの内容を２回目に出力
+while i < len(array):
+    print(array[i])
+    i += 1
