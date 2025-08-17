@@ -1,0 +1,14 @@
+# 消費税を加えた金額を計算する関数
+def calculate_total_price(price, tax_rate):
+    total = price + (price * tax_rate / 100)
+    return total  # 戻り値で結果を返す
+
+# 関数の呼び出し
+product_price = 110      # 第1引数：商品の金額
+tax_percentage = 10      # 第2引数：消費税（％）
+
+# 関数を使用して合計金額を取得
+total_price = calculate_total_price(product_price, tax_percentage)
+
+# 結果の出力
+print("税込金額:", total_price)
