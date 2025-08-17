@@ -1,0 +1,19 @@
+# Humanクラスの定義
+class Human:
+    # コンストラクタ（初期化）
+    def __init__(self, name, age):
+        self.name = name  # 名前属性
+        self.age = age    # 年齢属性
+
+    # 名前と年齢を出力するメソッド
+    def printinfo(self):
+        print("名前:", self.name)
+        print("年齢:", self.age)
+
+
+# --- クラスの利用例 ---
+# Humanクラスのインスタンスを変数に代入
+person = Human("佐藤花子", 22)
+
+# メソッドを呼び出して名前と年齢を出力
+person.printinfo()
